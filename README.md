@@ -13,34 +13,7 @@ ____
 > For Nerds
 
 
-### Strategy Logic:
-
-1. **Calculate Relative Strength Index (RSI):**
-   - RSI is a momentum indicator that measures the speed and change of price movements.
-   - The formula for RSI is given by:
-     \[ RSI = 100 - \frac{100}{1 + \frac{\text{Average Gain}}{\text{Average Loss}}} \]
-   - It is calculated based on the closing prices of the stock.
-
-2. **Calculate Bollinger Bands:**
-   - Bollinger Bands are volatility bands placed above and below a moving average.
-   - The upper band is calculated as \( \text{Basis} + \text{Multiplier} \times \text{Standard Deviation} \).
-   - The lower band is calculated as \( \text{Basis} - \text{Multiplier} \times \text{Standard Deviation} \).
-
-3. **Identify Buy and Sell Signals:**
-   - Buy Signal: Generated when RSI is below 50 and the closing price is below the lower Bollinger Band.
-   - Sell Signal: Generated when RSI is above 50 and the closing price is above the upper Bollinger Band.
-
-4. **Simulate the Trading Strategy:**
-   - For each data point, if a Buy Signal is generated and there is no existing position, buy the stock with the available capital.
-   - If a Sell Signal is generated and there is an existing position, sell the entire position.
-
-5. **Calculate Performance Metrics:**
-   - Check if the strategy is profitable by comparing the final capital with the initial capital.
-   - Calculate buy and sell counts.
-   - Calculate profitability score, net profit, and return on investment (ROI).
-
-6. **Visualize the Strategy:**
-   - Plot the closing prices of the stock along with Buy and Sell signals.
+![image](https://github.com/VinayChaudhari1996/SwingProfit/assets/42869040/dab6e01a-3111-4b6b-a238-47765cd07bd7)
 
 ### Example:
 
