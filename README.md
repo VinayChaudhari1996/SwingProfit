@@ -1,5 +1,6 @@
 # SwingProfit
 Timeseries buy and sell strategy for maximum profits 
+> Indian stocks example : Note Only for educational purposes and self-use
 
 
 ![image](https://github.com/VinayChaudhari1996/SwingProfit/assets/42869040/612e8b80-37cf-49cc-83e5-da4267188304)
